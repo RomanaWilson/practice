@@ -1,0 +1,46 @@
+h1 {
+  font-size: 40px;
+  color: purple;
+    text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  
+
+}
+
+.picture {
+  align: center;
+  display: inline-block;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid purple;
+
+}
+
+.container{
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+@media (min-width: 400px){
+  .picture {
+    border: 5px solid purple;
+  }
+}
+
+@media (min-width: 600px){
+  .picture {
+    border: 10px solid blue;
+  }
+}
+
+@media (min-width: 800px){
+  .picture {
+    border: 25px solid purple;
+  }
+}
